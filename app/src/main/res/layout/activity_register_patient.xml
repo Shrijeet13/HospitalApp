@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="2dp"
+    android:background="@drawable/hospital_2"
+    android:orientation="vertical"
+    tools:context=".activity_register_patient">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/form_background"
+        android:backgroundTint="#FFFFFF"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="Patient Registration"
+            android:textColor="#4B0082"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#E6E6FA"
+            android:hint="Patient Name"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#E6E6FA"
+            android:hint="Admission Date"
+            android:paddingBottom="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/e3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#E6E6FA"
+            android:hint="Aliment"
+            android:paddingBottom="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#808080" />
+
+        <EditText
+            android:id="@+id/e4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#E6E6FA"
+            android:hint="Contact No."
+            android:paddingBottom="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#808080" />
+
+
+        <EditText
+            android:id="@+id/e5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#E6E6FA"
+            android:hint="Doctor Name"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:textColorHint="#808080" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#2f779b"
+            android:text="Register"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
